@@ -175,6 +175,7 @@ function Logo() {
 }
 
 function Search({ query, setQuery }) {
+  //Use new hook useRef to create a reference to the input element
   const inputElement = useRef(null);
 
   useEffect(function () {
